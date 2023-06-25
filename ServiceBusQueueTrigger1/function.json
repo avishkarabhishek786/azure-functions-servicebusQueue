@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "outputSbQueue",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "myinputqueue",
+      "connection": "AksServiceBus_SERVICEBUS"
+    }
+  ],
+  "scriptFile": "../dist/ServiceBusQueueTrigger1/index.js"
+}
